@@ -1,27 +1,42 @@
 html {
-  box-sizing: border-box;
   font-family: Georgia, serif;
 }
 
 .banner {
-  position: relative;
-  overflow: hidden;
-  max-height: 500px;
-}
-
-.banner-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   background-color: #495562;
   color: #fff;
-  width: 100%;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: #97a49b;
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  background-color: #efefef;
+  border-color: #efefef;
+  color: #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+    background-color: transparent;
+  }
+
+  .banner-image {
+    position: absolute;
+    bottom: 0;
+
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, .0), rgba(73, 85, 98, .9));
+  }
+
+  .btn-ghost {
+    border-color: #fff;
+  }
 
 }
- @media only screen and (min-width: 60em) {
-
- .banner-content {
-  background-color: rgba(73, 85, 98, .2);
- }
-
- }
