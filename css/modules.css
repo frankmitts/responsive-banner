@@ -1063,16 +1063,16 @@ button[disabled] {
 .btn-ghost,
 .btn--ghost {
   background-color: transparent;
-  border-color: #333;
-  color: #000;
+  border-color: #efefef;
+  color: #fff;
 }
 
 .btn-ghost:focus,
 .btn-ghost:hover,
 .btn--ghost:focus,
 .btn--ghost:hover {
-  background-color: #e2e2e2;
-  border-color: #000;
+  background-color: #fff;
+  border-color: #fff;
   color: #000;
 }
 
